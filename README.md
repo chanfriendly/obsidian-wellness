@@ -97,6 +97,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Enhanced data visualization
 - Enhanced wellness metrics
 - Increase automation, decrease user effort, especially with the properties updating
+- The wellness wheel is not yet integrated
 
 ## License
 
