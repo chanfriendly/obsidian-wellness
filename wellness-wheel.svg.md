@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-300 -300 600 600">
+  <!-- Background circle -->
+  <circle cx="0" cy="0" r="200" fill="none" stroke="#666" stroke-width="1"/>
+  
+  <!-- Circular grid lines -->
+  <circle r="180" fill="none" stroke="#444" stroke-width="0.5"/>
+  <circle r="160" fill="none" stroke="#444" stroke-width="0.5"/>
+  <circle r="140" fill="none" stroke="#444" stroke-width="0.5"/>
+  <circle r="120" fill="none" stroke="#444" stroke-width="0.5"/>
+  <circle r="100" fill="none" stroke="#444" stroke-width="0.5"/>
+  <circle r="80" fill="none" stroke="#444" stroke-width="0.5"/>
+  <circle r="60" fill="none" stroke="#444" stroke-width="0.5"/>
+  <circle r="40" fill="none" stroke="#444" stroke-width="0.5"/>
+  <circle r="20" fill="none" stroke="#444" stroke-width="0.5"/>
+  
+  <!-- Fillable sections -->
+  <!-- Energy section (top) -->
+  <path class="section energy" d="M0,0 L0,-200 A200,200 0 0,1 173.2,-100 L0,0" fill="rgba(255,190,130,0.15)" stroke="#888" stroke-width="1"/>
+  
+  <!-- Mind section (top right) -->
+  <path class="section mind" d="M0,0 L173.2,-100 A200,200 0 0,1 173.2,100 L0,0" fill="rgba(255,182,193,0.15)" stroke="#888" stroke-width="1"/>
+  
+  <!-- Movement section (bottom right) -->
+  <path class="section movement" d="M0,0 L173.2,100 A200,200 0 0,1 0,200 L0,0" fill="rgba(255,225,150,0.15)" stroke="#888" stroke-width="1"/>
+  
+  <!-- Nourishment section (bottom) - with fill -->
+  <path class="section nourishment" d="M0,0 L0,200 A200,200 0 0,1 -173.2,100 L0,0" fill="rgba(170,230,170,0.15)" stroke="#888" stroke-width="1"/>
+  <!-- Nourishment fill to level 7 -->
+  <path d="M0,0 L0,140 A140,140 0 0,1 -121.24,70 L0,0" fill="rgba(170,230,170,0.6)" stroke="none"/>
+  
+  <!-- Connection section (bottom left) -->
+  <path class="section connection" d="M0,0 L-173.2,100 A200,200 0 0,1 -173.2,-100 L0,0" fill="rgba(173,216,230,0.15)" stroke="#888" stroke-width="1"/>
+  
+  <!-- Rest section (top left) -->
+  <path class="section rest" d="M0,0 L-173.2,-100 A200,200 0 0,1 0,-200 L0,0" fill="rgba(200,180,240,0.15)" stroke="#888" stroke-width="1"/>
+  
+  <!-- Section dividing lines -->
+  <line x1="0" y1="0" x2="0" y2="-200" stroke="#666" stroke-width="1"/>
+  <line x1="0" y1="0" x2="173.2" y2="-100" stroke="#666" stroke-width="1"/>
+  <line x1="0" y1="0" x2="173.2" y2="100" stroke="#666" stroke-width="1"/>
+  <line x1="0" y1="0" x2="0" y2="200" stroke="#666" stroke-width="1"/>
+  <line x1="0" y1="0" x2="-173.2" y2="100" stroke="#666" stroke-width="1"/>
+  <line x1="0" y1="0" x2="-173.2" y2="-100" stroke="#666" stroke-width="1"/>
+  
+  <!-- Section labels - Adjusted to be more centered in sections -->
+  <text x="130" y="-180" text-anchor="middle" font-size="18" fill="#fff">ENERGY</text>
+  <text x="230" y="0" text-anchor="middle" font-size="18" fill="#fff">MIND</text>
+  <text x="130" y="200" text-anchor="middle" font-size="18" fill="#fff">MOVEMENT</text>
+  <text x="-155" y="200" text-anchor="middle" font-size="18" fill="#fff">NOURISHMENT</text>
+  <text x="-130" y="-190" text-anchor="middle" font-size="18" fill="#fff">CONNECTION</text>
+  <text x="-230" y="-0" text-anchor="middle" font-size="18" fill="#fff">REST</text>
+  
+  <!-- Numbers for all sections -->
+  <!-- Mind section numbers (as template for others) -->
+  <g transform="rotate(-30)">
+    <text x="20" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">1</text>
+    <text x="40" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">2</text>
+    <text x="60" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">3</text>
+    <text x="80" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">4</text>
+    <text x="100" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">5</text>
+    <text x="120" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">6</text>
+    <text x="140" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">7</text>
+    <text x="160" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">8</text>
+    <text x="180" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">9</text>
+    <text x="195" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">10</text>
+  </g>
+   <!-- Rest section numbers (as template for others) -->
+  <g transform="rotate(-30)">
+    <text x="-20" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">1</text>
+    <text x="-40" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">2</text>
+    <text x="-60" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">3</text>
+    <text x="-80" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">4</text>
+    <text x="-100" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">5</text>
+    <text x="-120" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">6</text>
+    <text x="-140" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">7</text>
+    <text x="-160" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">8</text>
+    <text x="-180" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">9</text>
+    <text x="-195" y="0" text-anchor="middle" font-size="10" fill="#fff" transform="rotate(30)">10</text>
+  </g>
+</svg>
